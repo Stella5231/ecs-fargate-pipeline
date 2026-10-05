@@ -1,0 +1,5 @@
+# copy this to terraform.tfvars (gitignored) and fill in your own values
+# terraform.tfvars is never committed - it's where personal/account-specific
+# values live, kept separate from the module code on purpose
+
+alert_email = "you@example.com"
